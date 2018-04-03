@@ -1,233 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="1" total="13" passed="6">
+<testng-results skipped="0" failed="2" ignored="1" total="13" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="303557" started-at="2018-04-03T19:18:54Z" finished-at="2018-04-03T19:23:58Z">
+  <suite name="Linqia home Test" duration-ms="199493" started-at="2018-04-03T21:54:31Z" finished-at="2018-04-03T21:57:50Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="303557" started-at="2018-04-03T19:18:54Z" finished-at="2018-04-03T19:23:58Z">
+    <test name="Linqia Test Cases" duration-ms="199493" started-at="2018-04-03T21:54:31Z" finished-at="2018-04-03T21:57:50Z">
       <class name="com.qa.linqia.test.IntegrationWithPaypalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="11313" started-at="2018-04-03T12:19:45Z" finished-at="2018-04-03T12:19:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="8422" started-at="2018-04-03T14:54:55Z" finished-at="2018-04-03T14:55:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickOnPaypalTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="clickOnPaypalTest" duration-ms="22671" started-at="2018-04-03T12:19:56Z" finished-at="2018-04-03T12:20:19Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir21596_13185}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2d4d61d42c843b6dd0f7d9008dbcb2c2
-*** Element info: {Using=xpath, value=//a[text()='One-time Donations']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir21596_13185}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2d4d61d42c843b6dd0f7d9008dbcb2c2
-*** Element info: {Using=xpath, value=//a[text()='One-time Donations']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at com.qa.pages.IntegratinWithPaypal.clickOnSupport(IntegratinWithPaypal.java:36)
-	at com.qa.linqia.test.IntegrationWithPaypalTest.clickOnPaypalTest(IntegrationWithPaypalTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="clickOnPaypalTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="clickOnPaypalTest" duration-ms="16698" started-at="2018-04-03T14:55:03Z" finished-at="2018-04-03T14:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPaypalTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="1024" started-at="2018-04-03T12:20:19Z" finished-at="2018-04-03T12:20:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="1094" started-at="2018-04-03T14:55:20Z" finished-at="2018-04-03T14:55:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="11659" started-at="2018-04-03T12:20:20Z" finished-at="2018-04-03T12:20:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="8695" started-at="2018-04-03T14:55:21Z" finished-at="2018-04-03T14:55:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyPageTextTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="verifyPageTextTest" duration-ms="21841" started-at="2018-04-03T12:20:31Z" finished-at="2018-04-03T12:20:53Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir21516_26199}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5b48981cbeff2c65bed1ecee0c107f29
-*** Element info: {Using=xpath, value=//a[text()='One-time Donations']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir21516_26199}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5b48981cbeff2c65bed1ecee0c107f29
-*** Element info: {Using=xpath, value=//a[text()='One-time Donations']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at com.qa.pages.IntegratinWithPaypal.clickOnSupport(IntegratinWithPaypal.java:36)
-	at com.qa.linqia.test.IntegrationWithPaypalTest.verifyPageTextTest(IntegrationWithPaypalTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="verifyPageTextTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="verifyPageTextTest" duration-ms="2623" started-at="2018-04-03T14:55:30Z" finished-at="2018-04-03T14:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="1012" started-at="2018-04-03T12:20:53Z" finished-at="2018-04-03T12:20:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-04-03T14:55:32Z" finished-at="2018-04-03T14:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="11840" started-at="2018-04-03T12:21:49Z" finished-at="2018-04-03T12:22:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="setUp" is-config="true" duration-ms="8685" started-at="2018-04-03T14:56:02Z" finished-at="2018-04-03T14:56:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnSupportTest()[pri:1, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="clickOnSupportTest" duration-ms="6907" started-at="2018-04-03T12:22:01Z" finished-at="2018-04-03T12:22:08Z">
+        <test-method status="PASS" signature="clickOnSupportTest()[pri:1, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="clickOnSupportTest" duration-ms="2482" started-at="2018-04-03T14:56:10Z" finished-at="2018-04-03T14:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSupportTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="1643" started-at="2018-04-03T12:22:08Z" finished-at="2018-04-03T12:22:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@553f17c]" name="tearDown" is-config="true" duration-ms="704" started-at="2018-04-03T14:56:13Z" finished-at="2018-04-03T14:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.linqia.test.IntegrationWithPaypalTest -->
       <class name="com.qa.linqia.test.LinqiaTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.LinqiaTest@4f7d0008]" name="setUp" is-config="true" duration-ms="9890" started-at="2018-04-03T12:20:54Z" finished-at="2018-04-03T12:21:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.LinqiaTest@4f7d0008]" name="setUp" is-config="true" duration-ms="7804" started-at="2018-04-03T14:55:33Z" finished-at="2018-04-03T14:55:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterTest()[pri:0, instance:com.qa.linqia.test.LinqiaTest@4f7d0008]" name="enterTest" duration-ms="3348" started-at="2018-04-03T12:21:04Z" finished-at="2018-04-03T12:21:08Z">
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:com.qa.linqia.test.LinqiaTest@4f7d0008]" name="enterTest" duration-ms="1405" started-at="2018-04-03T14:55:41Z" finished-at="2018-04-03T14:55:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTest -->
       </class> <!-- com.qa.linqia.test.LinqiaTest -->
       <class name="com.qa.linqia.test.TodoTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8834" started-at="2018-04-03T12:21:08Z" finished-at="2018-04-03T12:21:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="7622" started-at="2018-04-03T14:55:42Z" finished-at="2018-04-03T14:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTextFieldTest()[pri:1, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="validateTextFieldTest" duration-ms="170" started-at="2018-04-03T12:21:16Z" finished-at="2018-04-03T12:21:17Z">
+        <test-method status="PASS" signature="validateTextFieldTest()[pri:1, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="validateTextFieldTest" duration-ms="67" started-at="2018-04-03T14:55:50Z" finished-at="2018-04-03T14:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTextFieldTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="882" started-at="2018-04-03T12:21:17Z" finished-at="2018-04-03T12:21:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="682" started-at="2018-04-03T14:55:50Z" finished-at="2018-04-03T14:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8703" started-at="2018-04-03T12:22:14Z" finished-at="2018-04-03T12:22:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8614" started-at="2018-04-03T14:56:17Z" finished-at="2018-04-03T14:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="3659" started-at="2018-04-03T12:22:23Z" data-provider="getTestData" finished-at="2018-04-03T12:22:26Z">
+        <test-method status="PASS" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="1729" started-at="2018-04-03T14:56:26Z" data-provider="getTestData" finished-at="2018-04-03T14:56:28Z">
           <params>
             <param index="0">
               <value>
@@ -238,15 +82,15 @@ Session ID: 5b48981cbeff2c65bed1ecee0c107f29
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="954" started-at="2018-04-03T12:22:26Z" finished-at="2018-04-03T12:22:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="695" started-at="2018-04-03T14:56:28Z" finished-at="2018-04-03T14:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8530" started-at="2018-04-03T12:22:27Z" finished-at="2018-04-03T12:22:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8378" started-at="2018-04-03T14:56:28Z" finished-at="2018-04-03T14:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="21283" started-at="2018-04-03T12:22:36Z" data-provider="getTestData" finished-at="2018-04-03T12:22:57Z">
+        <test-method status="FAIL" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="20838" started-at="2018-04-03T14:56:37Z" data-provider="getTestData" finished-at="2018-04-03T14:56:57Z">
           <params>
             <param index="0">
               <value>
@@ -264,8 +108,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22492_25257}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 790c1a46d5960b287589f82d42595156
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22004_6398}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d6b50959bd92c2c71627d938ef85acf5
 *** Element info: {Using=xpath, value=//label[text()='Selenim Webdriver']}]]>
             </message>
             <full-stacktrace>
@@ -277,8 +121,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22492_25257}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 790c1a46d5960b287589f82d42595156
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22004_6398}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d6b50959bd92c2c71627d938ef85acf5
 *** Element info: {Using=xpath, value=//label[text()='Selenim Webdriver']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -332,15 +176,15 @@ Session ID: 790c1a46d5960b287589f82d42595156
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="963" started-at="2018-04-03T12:22:57Z" finished-at="2018-04-03T12:22:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="708" started-at="2018-04-03T14:56:57Z" finished-at="2018-04-03T14:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8985" started-at="2018-04-03T12:22:58Z" finished-at="2018-04-03T12:23:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8042" started-at="2018-04-03T14:56:58Z" finished-at="2018-04-03T14:57:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="21726" started-at="2018-04-03T12:23:07Z" data-provider="getTestData" finished-at="2018-04-03T12:23:29Z">
+        <test-method status="FAIL" signature="enterTextTest(java.lang.String)[pri:2, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="enterTextTest" duration-ms="20887" started-at="2018-04-03T14:57:06Z" data-provider="getTestData" finished-at="2018-04-03T14:57:27Z">
           <params>
             <param index="0">
               <value>
@@ -358,8 +202,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir23272_6110}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2a7df2bf8ede736741be39cdc2d1cf7e
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir20696_27517}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b6704ec5cea87591dd3ef860720981c
 *** Element info: {Using=xpath, value=//label[text()='Selenim Webdriver']}]]>
             </message>
             <full-stacktrace>
@@ -371,8 +215,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir23272_6110}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2a7df2bf8ede736741be39cdc2d1cf7e
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir20696_27517}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b6704ec5cea87591dd3ef860720981c
 *** Element info: {Using=xpath, value=//label[text()='Selenim Webdriver']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -426,205 +270,61 @@ Session ID: 2a7df2bf8ede736741be39cdc2d1cf7e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="925" started-at="2018-04-03T12:23:29Z" finished-at="2018-04-03T12:23:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="718" started-at="2018-04-03T14:57:27Z" finished-at="2018-04-03T14:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="9124" started-at="2018-04-03T12:23:30Z" finished-at="2018-04-03T12:23:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8324" started-at="2018-04-03T14:57:28Z" finished-at="2018-04-03T14:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="documentation()[pri:3, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="documentation" duration-ms="4184" started-at="2018-04-03T12:23:39Z" finished-at="2018-04-03T12:23:43Z">
+        <test-method status="PASS" signature="documentation()[pri:3, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="documentation" duration-ms="1852" started-at="2018-04-03T14:57:36Z" finished-at="2018-04-03T14:57:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- documentation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="977" started-at="2018-04-03T12:23:43Z" finished-at="2018-04-03T12:23:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="680" started-at="2018-04-03T14:57:38Z" finished-at="2018-04-03T14:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8217" started-at="2018-04-03T12:23:44Z" finished-at="2018-04-03T12:23:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="setUp" is-config="true" duration-ms="8473" started-at="2018-04-03T14:57:39Z" finished-at="2018-04-03T14:57:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="helpTest()[pri:4, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="helpTest" duration-ms="4584" started-at="2018-04-03T12:23:52Z" finished-at="2018-04-03T12:23:57Z">
+        <test-method status="PASS" signature="helpTest()[pri:4, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="helpTest" duration-ms="2635" started-at="2018-04-03T14:57:47Z" finished-at="2018-04-03T14:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helpTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="1088" started-at="2018-04-03T12:23:57Z" finished-at="2018-04-03T12:23:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.TodoTest@14bf9759]" name="tearDown" is-config="true" duration-ms="686" started-at="2018-04-03T14:57:50Z" finished-at="2018-04-03T14:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.linqia.test.TodoTest -->
       <class name="com.qa.linqia.test.IntroductionPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="setUp" is-config="true" duration-ms="21827" started-at="2018-04-03T12:18:54Z" finished-at="2018-04-03T12:19:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="setUp" is-config="true" duration-ms="19110" started-at="2018-04-03T14:54:31Z" finished-at="2018-04-03T14:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyclickOnLearn()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="verifyclickOnLearn" duration-ms="27398" started-at="2018-04-03T12:19:16Z" finished-at="2018-04-03T12:19:44Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22812_21620}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 56a01b5918c9aa59c3f50eecb576661f
-*** Element info: {Using=xpath, value=//a[text()='API']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir22812_21620}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 56a01b5918c9aa59c3f50eecb576661f
-*** Element info: {Using=xpath, value=//a[text()='API']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at com.qa.pages.IntroductionPage.clickOnLearn(IntroductionPage.java:28)
-	at com.qa.linqia.test.IntroductionPageTest.verifyclickOnLearn(IntroductionPageTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="verifyclickOnLearn()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="verifyclickOnLearn" duration-ms="4039" started-at="2018-04-03T14:54:50Z" finished-at="2018-04-03T14:54:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyclickOnLearn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="1024" started-at="2018-04-03T12:19:44Z" finished-at="2018-04-03T12:19:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="730" started-at="2018-04-03T14:54:54Z" finished-at="2018-04-03T14:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="setUp" is-config="true" duration-ms="9004" started-at="2018-04-03T12:21:17Z" finished-at="2018-04-03T12:21:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="setUp" is-config="true" duration-ms="8805" started-at="2018-04-03T14:55:51Z" finished-at="2018-04-03T14:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validatePageTitle()[pri:1, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="validatePageTitle" duration-ms="22030" started-at="2018-04-03T12:21:26Z" finished-at="2018-04-03T12:21:48Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir19232_10540}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c69b495b8f9964aa79e7aca2f83ed179]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'AMRUTHAA', ip: '192.168.0.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8_1, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir19232_10540}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c69b495b8f9964aa79e7aca2f83ed179
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:388)
-	at com.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:61)
-	at com.qa.linqia.test.IntroductionPageTest.validatePageTitle(IntroductionPageTest.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:1, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="validatePageTitle" duration-ms="1452" started-at="2018-04-03T14:56:00Z" finished-at="2018-04-03T14:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="944" started-at="2018-04-03T12:21:49Z" finished-at="2018-04-03T12:21:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-04-03T14:56:01Z" finished-at="2018-04-03T14:56:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.linqia.test.IntroductionPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Linqia Test Cases -->
+  </suite> <!-- Linqia home Test -->
 </testng-results>

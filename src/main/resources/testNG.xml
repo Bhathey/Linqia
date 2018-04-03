@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FREE CRM Application Test Automation Test Suite">
+<suite name="Linqia home Test">
 
 	<listeners>
 		<listener class-name="com.qa.ExtentReporteListener.ExtentReporterNG" />
 	</listeners>
 
 
-	<test name="Free CRM App Test Cases">
+	<test name="Linqia Test Cases">
 		<classes>
 			<class name="com.qa.linqia.test.TodoTest"></class>
 			<class name="com.qa.linqia.test.IntroductionPageTest"></class>
