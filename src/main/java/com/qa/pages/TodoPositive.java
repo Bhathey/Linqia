@@ -12,7 +12,7 @@ public class TodoPositive extends TestBase{
 	WebElement textbox;
 	@FindBy(xpath="//label[text()='Selenim Webdriver']//preceding-sibling::input[@type='checkbox']")
 	WebElement checkboxValueOne;
-	@FindBy(xpath="//label[text()='Selenium Webdriver']")
+	@FindBy(xpath="//label[text()='Selenim Webdriver']")
 	WebElement checkBoxVale;
 	@FindBy(xpath="//a[text()='All']")
 	WebElement allButton;
@@ -38,6 +38,9 @@ public class TodoPositive extends TestBase{
 		textbox.sendKeys(Keys.ENTER);
 		
 		}
+	public String verifyAddedText(){
+		return checkBoxVale.getText();
+	}
 	
 	public IntroductionPage documentation(){
 		documnetation.click();

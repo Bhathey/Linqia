@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.linqia.test.LinqiaTest">
+      <class name="com.qa.linqia.test.TodoTest">
         <methods>
-          <include name="enterTest"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="enterTextTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.qa.linqia.test.LinqiaTest -->
+      </class> <!-- com.qa.linqia.test.TodoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

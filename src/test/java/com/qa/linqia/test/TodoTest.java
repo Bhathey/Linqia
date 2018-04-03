@@ -47,6 +47,8 @@ public class TodoTest extends TestBase {
 		todo.Entertext(TODO1);
 		todo.Entertext(TODO1);
 		todo.Entertext(TODO1);
+		String text = todo.verifyAddedText();
+		Assert.assertEquals(text,"Selenim Webdriver");
 		todo.clickOnCheckBox();
 		todo.clickOnclearComplete();
 		TestUtil.takeScreenshotAtEndOfTest();
@@ -72,7 +74,7 @@ public class TodoTest extends TestBase {
 	
 	@AfterMethod
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 	}
 
 }
