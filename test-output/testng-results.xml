@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20567" started-at="2018-04-03T06:22:55Z" finished-at="2018-04-03T06:23:15Z">
+  <suite name="Default suite" duration-ms="36231" started-at="2018-04-03T16:46:32Z" finished-at="2018-04-03T16:47:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20567" started-at="2018-04-03T06:22:55Z" finished-at="2018-04-03T06:23:15Z">
-      <class name="com.qa.linqia.test.IntroductionPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7839" started-at="2018-04-02T23:22:55Z" finished-at="2018-04-02T23:23:03Z">
+    <test name="Default test" duration-ms="36231" started-at="2018-04-03T16:46:32Z" finished-at="2018-04-03T16:47:09Z">
+      <class name="com.qa.linqia.test.IntegrationWithPaypalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="setUp" is-config="true" duration-ms="8110" started-at="2018-04-03T09:46:32Z" finished-at="2018-04-03T09:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyclickOnLearn()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="verifyclickOnLearn" duration-ms="3118" started-at="2018-04-02T23:23:03Z" finished-at="2018-04-02T23:23:06Z">
+        <test-method status="PASS" signature="clickOnPaypalTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="clickOnPaypalTest" duration-ms="6677" started-at="2018-04-03T09:46:41Z" finished-at="2018-04-03T09:46:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyclickOnLearn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-04-02T23:23:06Z" finished-at="2018-04-02T23:23:06Z">
+        </test-method> <!-- clickOnPaypalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="793" started-at="2018-04-03T09:46:47Z" finished-at="2018-04-03T09:46:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7656" started-at="2018-04-02T23:23:06Z" finished-at="2018-04-02T23:23:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="setUp" is-config="true" duration-ms="7275" started-at="2018-04-03T09:46:48Z" finished-at="2018-04-03T09:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:1, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="validatePageTitle" duration-ms="512" started-at="2018-04-02T23:23:14Z" finished-at="2018-04-02T23:23:15Z">
+        <test-method status="PASS" signature="verifyPageTextTest()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="verifyPageTextTest" duration-ms="2643" started-at="2018-04-03T09:46:55Z" finished-at="2018-04-03T09:46:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntroductionPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="680" started-at="2018-04-02T23:23:15Z" finished-at="2018-04-02T23:23:15Z">
+        </test-method> <!-- verifyPageTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="696" started-at="2018-04-03T09:46:58Z" finished-at="2018-04-03T09:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.linqia.test.IntroductionPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="setUp" is-config="true" duration-ms="6937" started-at="2018-04-03T09:46:59Z" finished-at="2018-04-03T09:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSupportTest()[pri:1, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="clickOnSupportTest" duration-ms="2282" started-at="2018-04-03T09:47:06Z" finished-at="2018-04-03T09:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSupportTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linqia.test.IntegrationWithPaypalTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="773" started-at="2018-04-03T09:47:08Z" finished-at="2018-04-03T09:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linqia.test.IntegrationWithPaypalTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

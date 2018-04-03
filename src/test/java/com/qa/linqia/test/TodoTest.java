@@ -58,6 +58,16 @@ public class TodoTest extends TestBase {
 			TestUtil.takeScreenshotAtEndOfTest();
 
 	}
+
+	@Test(priority=4)
+	public void helpTest() throws IOException{
+		String currentUrl = todo.clickOnHelp();
+		Assert.assertEquals(currentUrl, "https://github.com/tastejs/todomvc/issues");
+			TestUtil.takeScreenshotAtEndOfTest();
+
+	}
+	
+	
 	
 	
 	@AfterMethod

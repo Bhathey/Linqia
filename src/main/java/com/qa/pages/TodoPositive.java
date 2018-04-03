@@ -24,6 +24,8 @@ public class TodoPositive extends TestBase{
 	WebElement clearCompletedButton;
 	@FindBy(xpath="//a[text()='Documentation']")
 	WebElement documnetation;
+	@FindBy(xpath="//a[text()='let us know']")
+	WebElement letUsKnowLink;
 	public TodoPositive(){
 		PageFactory.initElements(driver, this);
 	}
@@ -48,5 +50,9 @@ public class TodoPositive extends TestBase{
 	}
 	public void clickOnclearComplete(){
 		clearCompletedButton.click();
+	}
+	public String clickOnHelp(){
+		letUsKnowLink.click();
+		return driver.getCurrentUrl();
 	}
 }

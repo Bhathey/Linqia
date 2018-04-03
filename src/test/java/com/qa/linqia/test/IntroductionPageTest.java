@@ -26,18 +26,18 @@ public class IntroductionPageTest extends TestBase{
 		initialization();
 		introPage = new IntroductionPage();
 		todo = new TodoPositive();
+		introPage = todo.documentation();
+
 	}
 	
 	@Test(priority=1)
 	public void validatePageTitle() throws IOException{
-		todo.documentation();
 	String title = introPage.validateTitle();
 	Assert.assertEquals(title, "Introduction — Vue.js");
 	TestUtil.takeScreenshotAtEndOfTest();
 	}
 	@Test
 	public void verifyclickOnLearn() throws IOException{
-		todo.documentation();
 		introPage.clickOnLearn();
 		Assert.assertEquals(driver.getTitle(), "API — Vue.js");
 		TestUtil.takeScreenshotAtEndOfTest();
