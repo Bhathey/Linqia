@@ -29,7 +29,7 @@ public class TodoTest extends TestBase {
 		todo = new TodoPositive();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,description = "TC-2")
 	public void validateTextFieldTest(){
 		boolean flag = todo.validateTextfiled();
 		Assert.assertTrue(flag);
@@ -42,7 +42,7 @@ public class TodoTest extends TestBase {
 	}
 	
 	
-	@Test(priority=2,dataProvider="getTestData")
+	@Test(priority=2,dataProvider="getTestData",description = "TC-14,TC-16")
 	public void enterTextTest(String TODO1) throws InterruptedException, IOException{
 		todo.Entertext(TODO1);
 		todo.Entertext(TODO1);
@@ -54,7 +54,7 @@ public class TodoTest extends TestBase {
 		TestUtil.takeScreenshotAtEndOfTest();
 }
 
-	@Test(priority=3)
+	@Test(priority=3,description = "TC-36")
 	public void documentation() throws IOException{
 		 introPage = todo.documentation();
 			TestUtil.takeScreenshotAtEndOfTest();

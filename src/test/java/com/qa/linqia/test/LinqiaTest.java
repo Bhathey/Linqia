@@ -32,7 +32,7 @@ public class LinqiaTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@Test()
+	@Test(description = "TC-48")
 	public void enterTest() throws IOException {
 		WebElement text = driver.findElement(By.xpath("//input[@placeholder='What needs to be done?']"));
 		text.sendKeys("Selenium");

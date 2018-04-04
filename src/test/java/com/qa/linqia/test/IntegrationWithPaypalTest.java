@@ -50,7 +50,7 @@ public class IntegrationWithPaypalTest extends TestBase{
 		Assert.assertTrue(flag);
 		
 	}
-	@Test
+	@Test(description = "TC-38")
 	public void clickOnPaypalTest() throws InterruptedException, IOException{
 		integrate.clickOnSupport();
 		integrate.clickOnPaypal();

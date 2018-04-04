@@ -36,7 +36,7 @@ public class IntroductionPageTest extends TestBase{
 	Assert.assertEquals(title, "Introduction — Vue.js");
 	TestUtil.takeScreenshotAtEndOfTest();
 	}
-	@Test
+	@Test(description = "TC-46")
 	public void verifyclickOnLearn() throws IOException{
 		introPage.clickOnLearn();
 		Assert.assertEquals(driver.getTitle(), "API — Vue.js");
